@@ -25,7 +25,7 @@ const Layout = () => {
                 </div>
             }
 
-            <div className="container-fluid p-0">
+            <div className="container-fluid p-0 MainLayout">
                 <div className="col-12 bg-dark py-4">
                     <h1 className='text-center fw-bold text-warning'>Movie Search Platform</h1>
                 </div>

@@ -1,3 +1,13 @@
+body {
+  overflow-x: hidden;
+  background-color: #F5F5F7;
+}
+
+.MainLayout {
+  overflow-x: hidden;
+}
+
+
 .searchBar {
   .row {
     justify-content: center;
@@ -10,22 +20,20 @@
 
   .cards {
     width: 18%;
-    background-color: rgba(0, 255, 255, 0.005);
+    background-color: white !important;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.237);
 
 
     .inner-card {
-      width:100%;
+      width: 100%;
     }
 
     .card-header {
       height: 55vh;
       overflow: hidden;
       display: flex;
-      justify-content: center;
-      align-items: center;
 
       img {
         display: block;
@@ -45,30 +53,36 @@
 }
 
 
-.movieContainer{
+.movieContainer {
   overflow: hidden;
-  .image{
+
+  .image {
     height: 80vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
 
 
-    table{
-      thead , tbody , tr , td{
-        border: none !important;
-      }
-    }
 
-    img{
+    img {
       width: 80%;
     }
   }
 }
 
+table {
+
+  thead,
+  tbody,
+  tr,
+  td {
+    border: none !important;
+  }
+}
 
 
-.loading{
+
+.loading {
   position: fixed;
   height: 100vh;
 
@@ -77,4 +91,382 @@
   align-items: center;
 
   background-color: rgba(0, 0, 0, 0.805)
+}
+
+
+
+
+@media (max-width : 430px) {
+  .cardContainer {
+
+    .cards {
+      width: 80%;
+      background-color: rgba(0, 255, 255, 0.005);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.337);
+
+
+      .inner-card {
+        width: 100%;
+      }
+
+      .card-header {
+        height: 60vh;
+        display: flex;
+        overflow: hidden;
+
+
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+
+      .card-body {
+        h4 {
+          font-size: 18px;
+          font-weight: 500;
+        }
+      }
+    }
+
+
+  }
+
+
+
+  .movieContainer {
+    overflow: hidden;
+
+
+
+
+
+    .image {
+      height: 100%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+
+      img {
+        width: 90%;
+      }
+    }
+
+
+
+    .sec2 {
+      table {
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+  }
+
+}
+
+
+@media (max-width : 500px) and (min-width : 430px) {
+  .cardContainer {
+
+    .cards {
+      width: 60% !important;
+      background-color: rgba(0, 255, 255, 0.005);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.337);
+
+
+      .inner-card {
+        width: 100%;
+      }
+
+      .card-header {
+        height: 60vh;
+        display: flex;
+        overflow: hidden;
+
+
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+
+      .card-body {
+        h4 {
+          font-size: 18px;
+          font-weight: 500;
+        }
+      }
+    }
+
+
+  }
+
+
+
+  .movieContainer {
+    overflow: hidden;
+
+    .image {
+      height: auto;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+      img {
+        width: 70% !important;
+      }
+    }
+
+
+
+    .sec2 {
+      margin-top: 10vh;
+      margin-bottom: 10vh;
+
+      table {
+        width: 80vw;
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+  }
+
+}
+
+
+@media (max-width : 576px) and (min-width : 500px) {
+  .cardContainer {
+
+    .cards {
+      width: 60%;
+      background-color: rgba(0, 255, 255, 0.005);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.337);
+
+
+      .inner-card {
+        width: 100%;
+      }
+
+      .card-header {
+        height: 60vh;
+        display: flex;
+        overflow: hidden;
+
+
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+
+      .card-body {
+        h4 {
+          font-size: 18px;
+          font-weight: 500;
+        }
+      }
+    }
+
+
+  }
+
+
+
+  .movieContainer {
+    overflow: hidden;
+
+
+
+
+
+    .image {
+      height: auto;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+
+      img {
+        width: 60%;
+      }
+    }
+
+
+
+    .sec2 {
+      margin-top: 3vh;
+      margin-bottom: 5vh;
+      table {
+        width: 60vw;
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+  }
+
+}
+
+
+@media (max-width : 768px) and (min-width : 576px) {
+  .cardContainer {
+
+    .cards {
+      width: 45%;
+      background-color: rgba(0, 255, 255, 0.005);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.337);
+
+
+      .inner-card {
+        width: 100%;
+      }
+
+      .card-header {
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+
+      .card-body {
+        h4 {
+          font-size: 18px;
+          font-weight: 500;
+        }
+      }
+    }
+
+
+  }
+
+
+
+  .movieContainer {
+    overflow: hidden;
+
+
+
+
+
+    .image {
+      height: auto;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+
+      img {
+        width: 90%;
+      }
+    }
+
+
+
+    .sec2 {
+      table {
+        width: 45vw;
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+  }
+
+}
+
+
+@media (max-width : 992px) and (min-width : 768px) {
+  .cardContainer {
+
+    .cards {
+      width: 40%;
+      background-color: rgba(0, 255, 255, 0.005);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.337);
+
+
+      .inner-card {
+        width: 100%;
+      }
+
+      .card-header {
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+
+      .card-body {
+        margin-bottom: 5vh !important;
+        margin-top: 5vh !important;
+        h4 {
+          font-size: 18px;
+          font-weight: 500;
+        }
+      }
+    }
+
+
+  }
+
+
+
+  .movieContainer {
+    overflow: hidden;
+
+    .image {
+      height: auto;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+
+      img {
+        width: 85%;
+      }
+    }
+
+
+
+    .sec2 {
+      table {
+        width: 100%;
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+  }
+
 }

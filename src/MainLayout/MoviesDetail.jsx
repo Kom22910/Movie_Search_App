@@ -60,17 +60,17 @@ const MoviesDetail = () => {
                 <div className="col-12 m-auto mt-4">
                     <div className="row">
 
-                        <div className="col-lg-4 col-5  ">
-                            <div className="col-12 image">
+                        <div className="col-lg-4  col-md-5 col-sm-6 col-12 ">
+                            <div className=" col-12 image">
                                 <img src={data && data.Poster} alt="The Fame Game" />
                             </div>
                         </div>
 
 
-                        <div className="col-lg-8 col-7 ms-auto">
-                            <div className="col-11 m-auto">
+                        <div className="col-lg-8 col-md-7 col-sm-6 col-12 ms-auto sec2">
+                            <div className="col-md-11 col-12 m-auto">
 
-                                <table className='table'>
+                                <table className='table m-auto'>
 
                                     <tbody>
                                         <tr>

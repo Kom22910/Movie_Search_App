@@ -52,7 +52,7 @@ const Search = ({fun}) => {
     return (
         <>
 
-            <div className="col-6 m-auto py-3 searchBar">
+            <div className="col-md-6 col-12 m-auto py-3 searchBar">
                 <form action="" onSubmit={(e)=>Submit(e)}>
                     <div className="row">
 

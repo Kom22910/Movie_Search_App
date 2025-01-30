@@ -35,7 +35,7 @@ const MovieCards = ({ CardData }) => {
                                             </div>
 
 
-                                            <div className=" col-12 card-body my-3">
+                                            <div className=" col-12 card-body my-md-3 my-4">
                                                 <h4 className='text-center'>
                                                     {val.Title}
                                                 </h4>
