@@ -15,7 +15,7 @@ const MoviesDetail = () => {
     const Fetch = async () => {
         try {
             setLoad(true);
-            let res = await axios.get(`http://www.omdbapi.com/?i=${params.id}&apikey=33f76330`)
+            let res = await axios.get(`https://www.omdbapi.com/?i=${params.id}&apikey=33f76330`)
                 .catch(err => {
                     return alert(err);
                 })

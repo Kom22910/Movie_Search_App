@@ -27,7 +27,7 @@ const Search = ({fun}) => {
         const Fetch = async()=>{
             try{
                 fun(true);
-                await axios.get(`http://www.omdbapi.com/?s=${search.title}&apikey=33f76330`)
+                await axios.get(`https://www.omdbapi.com/?s=${search.title}&apikey=33f76330`)
                 .then((res)=>{
                     alert("Search Successfully");
                     console.log(res.data.Search);
