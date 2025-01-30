@@ -57,7 +57,7 @@ const Search = ({fun}) => {
                     <div className="row">
 
 
-                        <div className="col-6">
+                        <div className="col-7">
                             <input type="text" placeholder='Enter movie name' value={search.title} name='title' onChange={(e)=>ChangeData(e)} className='form-control py-2' />
                         </div>
 
