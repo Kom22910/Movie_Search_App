@@ -31,7 +31,7 @@ const MovieCards = ({ CardData }) => {
                                         <div className="row">
 
                                             <div className=" col-12 card-header">
-                                                <img src={val.Poster} alt="No Poster availabe" />
+                                                <img src={val.Poster} alt={val.Title} />
                                             </div>
 
 

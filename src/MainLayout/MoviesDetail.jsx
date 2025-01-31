@@ -62,7 +62,7 @@ const MoviesDetail = () => {
 
                         <div className="col-lg-4  col-md-5 col-sm-6 col-12 ">
                             <div className=" col-12 image">
-                                <img src={data && data.Poster} alt="The Fame Game" />
+                                <img src={data && data.Poster} alt={data && data.Title} />
                             </div>
                         </div>
 
